@@ -20,6 +20,10 @@ session_start();
         <link href="css/subscribe.css" rel="stylesheet">
         <script src="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
+
+
+
+
     </head>
 
 <body>
@@ -169,12 +173,14 @@ session_start();
 </div>
 
 <div class="container-fluid" id="seven">
+<a name="sevenx"></a>
     <div class="row">
         <img src="photo/text_contact_1.png"/>
     </div>
     <div class="row">
         <div class="col-xs-6">
             <form action="form.php" method="post">
+            <input type="hidden" name="pozycja_na_stronie" id="pozycja_na_stronie" value="0" />
                 <label for="name"></label>
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your name...">
                 <?php
@@ -232,11 +238,5 @@ session_start();
 <?php
 session_destroy();
 ?>
-
-
-    <script src="jquery/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-
 </body>
 </html>

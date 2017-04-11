@@ -44,40 +44,49 @@
     margin-top: 3.5%;
     padding-right: 0%;
     margin-right: 0%; }
-    #seven div div form textarea:focus {
-      background-color: #00c4c4;
-      border-left: 3px solid #43749b; }
-    #seven div div form .form-control {
-      width: 90%;
-      border-radius: 0%;
-      background-color: rgba(89, 204, 210, 0.6);
-      border-color: rgba(89, 204, 210, 0); }
-    #seven div div form .form-control:focus {
-      background-color: #00c4c4;
-      border-left: 3px solid #43749b; }
-    #seven div div form .butt {
-      width: 40%;
-      border-radius: 0%;
-      background-color: rgba(52, 119, 172, 0.7);
-      border-color: rgba(52, 119, 172, 0.7);
-      font-size: 20px; }
-    #seven div div form input, #seven div div form textarea {
-      color: white !important;
-      padding-left: 15px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      height: 5.78%; }
-    #seven div div form textarea {
-      width: 90%;
-      height: 200px;
-      border-radius: 0%;
-      background-color: rgba(89, 204, 210, 0.6);
-      border-color: rgba(89, 204, 210, 0);
-      margin-top: 4%;
-      resize: none; }
-    #seven div div form input::-webkit-input-placeholder {
-      color: white; }
-  #seven div .a img {
+  #seven div div textarea:focus {
+    background-color: #00c4c4;
+    border-left: 3px solid #43749b; }
+  #seven div div .form-control {
+    width: 90%;
+    border-radius: 0%;
+    background-color: rgba(89, 204, 210, 0.6);
+    border-color: rgba(89, 204, 210, 0); }
+  #seven div div .form-control:focus {
+    background-color: #00c4c4;
+    border-left: 3px solid #43749b; }
+  #seven div div .butt {
+    width: 40%;
+    border-radius: 0%;
+    background-color: rgba(52, 119, 172, 0.7);
+    border-color: rgba(52, 119, 172, 0.7);
+    font-size: 20px; }
+    @media screen and (max-width: 850px) {
+      #seven div div .butt {
+        font-size: 10px; } }
+  #seven div div .butt:focus {
+    background-color: rgba(89, 204, 210, 0.6);
+    border-color: rgba(89, 204, 210, 0); }
+  #seven div div input, #seven div div textarea {
+    color: white !important;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 5.78%; }
+    @media screen and (max-width: 850px) {
+      #seven div div input, #seven div div textarea {
+        font-size: 10px; } }
+  #seven div div textarea {
+    width: 90%;
+    height: 200px;
+    border-radius: 0%;
+    background-color: rgba(89, 204, 210, 0.6);
+    border-color: rgba(89, 204, 210, 0);
+    margin-top: 4%;
+    resize: none; }
+  #seven div div input::-webkit-input-placeholder {
+    color: white; }
+  #seven .a img {
     width: 42%;
     margin-right: 48%;
     margin-left: 10%;

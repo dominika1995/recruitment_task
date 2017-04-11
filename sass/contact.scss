@@ -61,7 +61,7 @@
           margin-top: 3.5%;
           padding-right: 0%;
           margin-right: 0%;
-
+			}
           textarea:focus{
             background-color:rgb(0,196,196);
             border-left: 3px solid rgb(67,116,155);
@@ -88,13 +88,24 @@
             background-color: rgba(52,119,172,0.7);
             border-color: rgba(52,119,172,0.7);
             font-size: 20px;
+            @media screen and(max-width:850px)
+            {
+                font-size: 10px;
+            }
           }
-          input,textarea{
+      .butt:focus{
+        background-color: rgba(89,204,210,0.6);
+        border-color: rgba(89,204,210,0);
+      }
+          input,textarea {
             color: white !important;
             padding-left: 15px;
             padding-top: 15px;
             padding-bottom: 15px;
             height: 5.78%;
+            @media screen and(max-width: 850px) {
+              font-size: 10px;
+            }
           }
           textarea{
 
@@ -122,5 +133,5 @@
       }
     }
 
-    }
+    
   }

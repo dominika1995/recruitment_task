@@ -32,7 +32,7 @@ else{
 }
 
 if($length_m<=10 || $length_m>=500){
-    $_SESSION['error_message']='<span style="color:darkred">Invalid length message</span>';
+    $_SESSION['error_message']='<span style="color:darkred"><br>Invalid length message</span>';
 }
 else{
     unset($_SESSION['error_message']);
@@ -63,6 +63,8 @@ else
 {
     $_SESSION['mail']='<span style="color:darkred;margin-left:23%;">Mail was not sent</span>';
 }
+$_SESSION['scroll']=1;
+
 header('Location:index.php');
 ?>
 </body>
