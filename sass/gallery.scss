@@ -1,0 +1,53 @@
+$color:#ffe92f;
+
+#four{
+  background-color: $color;
+  div{
+    img{
+      display: block;
+      margin: 0 auto;
+      margin-top: 6.5%;
+      width: 38%;
+    }
+    div{
+      img{
+        margin-top: 2.26%;
+        margin-left: 12.9%;
+        width:85.2%;
+      }
+      div{
+        img{
+          margin-top: 6.96%;
+          margin-left: 0%;
+          width:71.5%;
+
+        }
+      }
+    }
+    .col-xs-6{
+      img{
+        width:80%;
+      }
+    }
+    .b{
+      img{
+        padding-left: 2%;
+        float: right;
+      }
+    }
+    .c {
+      background-color: $color;
+      img {
+        padding-left: 2%;
+        float: left;
+        margin-left: 2%;
+      }
+    }
+  }
+  .button {
+    img {
+      margin-top: 3.2%;
+      width: 13.3%;
+    }
+  }
+}

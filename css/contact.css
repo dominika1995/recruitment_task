@@ -1,0 +1,86 @@
+.c {
+  background-color: #262626; }
+  .c div img {
+    display: inline;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: auto; }
+    @media screen and (min-width: 500px) {
+      .c div img {
+        padding-right: 0%;
+        margin-left: 12%; } }
+    @media screen and (min-width: 1575px) {
+      .c div img {
+        margin-left: 12%;
+        padding-right: 10%; } }
+    @media screen and (min-width: 1300px) {
+      .c div img {
+        margin-left: 12%;
+        padding-right: 7%; } }
+    @media screen and (min-width: 1050px) {
+      .c div img {
+        margin-left: 12%;
+        padding-right: 4%; } }
+    @media screen and (min-width: 840px) {
+      .c div img {
+        padding-right: 0%;
+        margin-left: 12%; } }
+
+#seven {
+  background-image: url(../photo/footer_1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+  #seven div img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 22.66%; }
+  #seven div div img {
+    width: 31%;
+    margin-left: 18.5%;
+    margin-top: 3%; }
+  #seven div div form {
+    margin-left: 22%;
+    margin-top: 3.5%;
+    padding-right: 0%;
+    margin-right: 0%; }
+    #seven div div form textarea:focus {
+      background-color: #00c4c4;
+      border-left: 3px solid #43749b; }
+    #seven div div form .form-control {
+      width: 90%;
+      border-radius: 0%;
+      background-color: rgba(89, 204, 210, 0.6);
+      border-color: rgba(89, 204, 210, 0); }
+    #seven div div form .form-control:focus {
+      background-color: #00c4c4;
+      border-left: 3px solid #43749b; }
+    #seven div div form .butt {
+      width: 40%;
+      border-radius: 0%;
+      background-color: rgba(52, 119, 172, 0.7);
+      border-color: rgba(52, 119, 172, 0.7);
+      font-size: 20px; }
+    #seven div div form input, #seven div div form textarea {
+      color: white !important;
+      padding-left: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      height: 5.78%; }
+    #seven div div form textarea {
+      width: 90%;
+      height: 200px;
+      border-radius: 0%;
+      background-color: rgba(89, 204, 210, 0.6);
+      border-color: rgba(89, 204, 210, 0);
+      margin-top: 4%;
+      resize: none; }
+    #seven div div form input::-webkit-input-placeholder {
+      color: white; }
+  #seven div .a img {
+    width: 42%;
+    margin-right: 48%;
+    margin-left: 10%;
+    margin-top: 6.5%; }
+
+/*# sourceMappingURL=contact.css.map */

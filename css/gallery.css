@@ -1,0 +1,31 @@
+#four {
+  background-color: #ffe92f; }
+  #four div img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 6.5%;
+    width: 38%; }
+  #four div div img {
+    margin-top: 2.26%;
+    margin-left: 12.9%;
+    width: 85.2%; }
+  #four div div div img {
+    margin-top: 6.96%;
+    margin-left: 0%;
+    width: 71.5%; }
+  #four div .col-xs-6 img {
+    width: 80%; }
+  #four div .b img {
+    padding-left: 2%;
+    float: right; }
+  #four div .c {
+    background-color: #ffe92f; }
+    #four div .c img {
+      padding-left: 2%;
+      float: left;
+      margin-left: 2%; }
+  #four .button img {
+    margin-top: 3.2%;
+    width: 13.3%; }
+
+/*# sourceMappingURL=gallery.css.map */
